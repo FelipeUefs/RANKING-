@@ -1,4 +1,5 @@
-# PYTHON
+SISTEMA DE RANKING PARA MARATONA
+
 Projeto do Primeiro Semestre em Python
 Um sistema de ranking é utilizado para estabelecer a classificação em tempo real de 
 equipes ou atletas em uma competição ou modalidade. Para isso, é necessária a criação 

@@ -1,10 +1,28 @@
-SISTEMA DE RANKING PARA MARATONA
+# 🏆 Sistema de Ranking de Equipes
 
-Projeto do Primeiro Semestre em Python
-Um sistema de ranking é utilizado para estabelecer a classificação em tempo real de 
-equipes ou atletas em uma competição ou modalidade. Para isso, é necessária a criação 
-de um programa que analise os dados e faça o processamento destes para assim ser 
-exibido o Ranking completo com nome da equipe, quantidade de questões resolvidas 
-separadas por tipo (fácil, média e difícil) e o tempo levado para resolução; em caso de 
-empate, os critérios considerados foram os de quantidade de questões difíceis e tempo 
-que foram levados a uso.
+## 📌 Sobre o Projeto
+Este projeto implementa um **sistema de competição entre equipes**, onde cada grupo acumula pontos de acordo com o número de questões fáceis, médias e difíceis resolvidas.  
+O sistema aplica critérios de desempate baseados em:
+- Quantidade de questões difíceis resolvidas
+- Tempo total gasto na competição
+
+Ao final, é exibida uma tabela de ranking com a pontuação de cada equipe, a média geral e o destaque para a equipe vencedora.
+
+---
+
+## ⚙️ Funcionalidades
+- Entrada personalizada do **peso das questões** (fácil, média, difícil).  
+- Cadastro de até **5 equipes participantes**.  
+- Registro de:
+  - Quantidade de questões fáceis, médias e difíceis corretas
+  - Tempo gasto por equipe (em minutos)  
+- Cálculo automático da pontuação de cada equipe.  
+- **Critérios de desempate**:
+  - Mais acertos em questões difíceis
+  - Menor tempo gasto  
+- Exibição de:
+  - Ranking completo
+  - Média de pontos por equipe
+  - Equipe com mais acertos em questões difíceis
+  - Campeã geral da competição  
+---
